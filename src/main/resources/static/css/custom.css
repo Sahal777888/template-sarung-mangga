@@ -1,0 +1,50 @@
+.container-navbarx {
+/*
+    padding-left: calc(8vw - 40px)!important;
+    padding-right: calc(8vw - 40px)!important;
+*/
+    width: 1800px;
+    padding-left: calc(8vw - 40px)!important;
+    padding-right: calc(8vw - 40px)!important;
+}
+.container-mainx {
+width:1350px!important;
+    padding-left: 210px !important;
+}
+.container-profilx {
+width:1350px!important;
+    padding-left: 250px !important;
+}
+.container-productx {
+width:1350px!important;
+    padding-left: 250px !important;
+}
+.roundx-mini {
+    border-radius: 15px;
+}
+.roundx-front {
+    border-radius: 16px;
+}
+.roundx-normal{
+    border-radius: 20px;
+}
+.roundx-profil{
+    border-radius: 50%;
+}
+input.largecheckbox{
+    width:20px;
+    height:20px;
+}
+.fontcheck{
+    font-size:18px;
+}
+input {
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: hidden;
+        background-color: #fff;
+}
+.no-outline:focus {
+        outline: none;
+}

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layouts/main}" xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+  <meta charset="UTF-8">
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
+  <title>Test Main</title>
+
+  <link rel="stylesheet" th:href="@{~/css/custom.css}" />
+</head>
+<body>
+<!--<div class="row mb-2" layout:fragment="breadcrumb">-->
+<div class="row"   layout:fragment="content">
+  <!-- !1 container 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+  <div class="container-profilx  mt-3 " >
+    <div class="row mb-2 mt-5" >
+      <div class="col-md">
+        <div class="card roundx-mini" style="height: 700px;">
+          <div class="row">
+            <!--@kolum kanan  g-0-->
+            <div class="col-md-5">
+              <div class="col p-3">
+              <div id="swiper-gallery p-3">
+                <div class="swiper gallery-top">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide roundx-normal" style="background-image: url(/img/sarung_produk_1.png)">
+
+                    </div>
+                    <div class="swiper-slide roundx-normal" style="background-image: url(/img/sarung_produk_2.png)">
+
+                    </div>
+                    <div class="swiper-slide roundx-normal" style="background-image: url(/img/sarung_produk_3.png)">
+
+                    </div>
+                    <div class="swiper-slide roundx-normal" style="background-image: url(/img/sarung_produk_4.png)">
+
+                    </div>
+                    <!--<div class="swiper-slide roundx-normal" style="background-image: url(/img/backgrounds/6.jpg)">
+                      Slide 5
+                    </div>-->
+                  </div>
+                  <!-- Add Arrows -->
+                  <div class="swiper-button-next swiper-button-white"></div>
+                  <div class="swiper-button-prev swiper-button-white"></div>
+                </div>
+                <div class="row">&nbsp;</div>
+                <div class="swiper gallery-thumbs">
+                  <div class="swiper-wrapper" style="height:150px;">
+                    <div class="swiper-slide roundx-normal" th:style="'background-image: url(/img/sarung_produk_1.png)'">
+                    </div>
+                    <div class="swiper-slide roundx-normal" th:style="'background-image: url(/img/sarung_produk_2.png)'">
+                    </div>
+                    <div class="swiper-slide roundx-normal" th:style="'background-image: url(/img/sarung_produk_3.png)'">
+                    </div>
+                    <div class="swiper-slide roundx-normal" th:style="'background-image: url(/img/sarung_produk_4.png)'">
+                    </div>
+                    <!--<div class="swiper-slide" th:style="'background-image: url(/img/backgrounds/5.jpg)'">
+                    </div>-->
+                    <!--
+                    <div class="swiper-slide" style="background-image: url(/img/backgrounds/6.jpg)">
+                      Slide 5
+                    </div>
+                    -->
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!--@end kolum kanan -->
+            <div class="col-md-7 mt-3">
+              <p  class=" p-2" style="font-size: 27px;">
+                Sarung Mangga Classy Hijau Botol
+              </p><p  class=" p-2" style="font-size: 40px;">
+              <b>Rp. 130.000</b>
+              </p>
+              <button type="button" class="btn btn-danger">Beli Shopee</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button type="button" class="btn btn-warning">Beli Official Store</button><br>
+              <p  class="mb-0 p-2 mt-2" style="font-size: 20px;">
+              Bagikan<span>
+                <img class="img-fluid  p-2 " th:src="@{~/img/whatsappz.png}" alt="Card image" />
+                <img class="img-fluid  p-2 " th:src="@{~/img/twitterz.png}" alt="Card image" />
+                <img class="img-fluid  p-2 " th:src="@{~/img/facebookz.png}" alt="Card image" />
+                <img class="img-fluid  p-2 " th:src="@{~/img/messengerz.png}" alt="Card image" />
+              </span>
+              </p>
+
+              <p  class="mt-4 p-2 mb-0" style="font-size: 20px;">
+              Voucher Bangga Bersarung
+              </p>
+              <img class="img-fluid  p-2 mt-0" th:src="@{~/img/voucher_bersarung.png} " style="width:75%" alt="Card image" />
+              <p  class="mb-0 p-2" style="font-size: 20px;">
+              Voucher Shopee
+              </p>
+              <img class="img-fluid  p-2 mt-0 mb-5" th:src="@{~/img/voucher_shopee.png}" style="width:75%"  alt="Card image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- end first row -->
+
+  </div>
+    <div class="row mb-5 mt-5" >
+      <div class="col-md">
+        <div class="card roundx-mini" style="height: 700px;">
+          <p  class=" p-4" style="font-size: 30px;">
+            <b>Deskripsi</b>
+          </p>
+          <p  class="p-4" style="font-size: 20px;line-height: 2.0;">
+            Sarung Mangga Classy Hijau Botol adalah sarung tenun berkualitas produksi PT PAJITEX.<br>
+            Eksotisme budaya nusantara menjadi inspirasi pada setiap motif Sarung Mangga.<br>
+            Bahan TR yang adem dan nyaman dipakai menjadikan Sarung Mangga menjadi pilihan bagi para pecinta sarung tenun berkualitas.<br>
+            Warna - warni yang cerah dan maskulin berpadu harmonis dalam setiap desain motif Sarung Mangga.<br>
+            Ukuran Lebar: 101 cm ; Panjang :129,5 cm<br>
+            Cara Perawatan:<br>
+            - Gunakan air dingin untuk mencuci sarung tenun dan posisikan bagian dalam menjadi di luar ketika dicuci.<br>
+            - Keringkan dengan cara menjemur kain sarung tenun di tempat yang teduh dan hindarkan dari paparan sinar matahari langsung.<br>
+            - Setelah kering, angkat, lipat, dan simpan sarung tenun di tempat yang dingin dan kering.
+          </p>
+        </div>
+      </div>
+    </div>
+
+          <!--
+  <div class="row"></div>-->
+    <div class="row-lg-12 mb-5">&nbsp;</div>
+  <!-- container -->
+</div>
+</div>
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+
+</body>
+</html>

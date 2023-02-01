@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layouts/main}" xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+  <meta charset="UTF-8">
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
+  <title>Test Main</title>
+
+  <link rel="stylesheet" th:href="@{~/css/custom.css}" />
+</head>
+<body>
+<!--<div class="row mb-2" layout:fragment="breadcrumb">-->
+<div class="row"   layout:fragment="content">
+  <!-- !1 container 1 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+  <div class="container-profilx  mt-3 " >
+    <div class="row">
+      <div class="col-14 "  >
+        <h1 class="fw-bold mb-5" style="text-align: center;"><b>Reviewer’s Profile</b> </h1></div>
+    </div>
+    <div class="row ">
+    <div class="row mb-2" >
+      <div class="col-md">
+        <div class="card roundx-mini" style="height: 450px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img class="img-fluid d-flex align-items-center p-2 roundx-profil mx-5 my-5"
+                   th:src="@{~/img/profil1.png}" alt="Card image" />
+            </div>
+            <div class="col-md-8 mt-5">
+              <p  class="mb-0 p-2" style="font-size: 16px;">
+                Pengasuh Pondok Pesantren Roudhotut Tholibin, Gresik.
+              </p><p  class="mb-0 p-2" style="font-size: 16px;">
+                Menempuh pendidikan di Jurusan Pendidikan Agama Islam, Fakultas Tarbiyah, Institut Agama Islam (IAI) Darullughah Wadda’wah, Bangil, Indonesia tahun 2003-2007
+              </p><p  class="mb-0 p-2" style="font-size: 16px;">
+                Melanjutkan pendidikan di Rebat Tareem, for Teaching The Traditional Science Of Islamic Religion and Arabic, Tareem, Hadramaut Yaman tahun 2007-2011
+              </p><p  class="mb-0 p-2" style="font-size: 16px;">
+                Menempuh Program Pascasarjana Magister Manajemen Pendidikan Islam, IAI Darullughah Wadda’wah, Bangil, Indonesia tahun 2015-2018
+              </p><p  class="mb-0 p-2" style="font-size: 20px;">
+              <br><br>
+                <b>USTADZ ABDUL AZIZ MALIBARY</b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+    <!-- end first row -->
+  </div>
+<!--
+  <div class="row"></div>-->
+    <div class="row-lg-12 mb-5">&nbsp;</div>
+  <!-- container -->
+</div>
+</div>
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+
+</body>
+</html>
